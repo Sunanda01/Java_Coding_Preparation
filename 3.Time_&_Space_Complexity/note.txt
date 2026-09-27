@@ -1,0 +1,30 @@
+>Time and Space Complexity
+
+1. Time Complexity
+- TC != Time Taken
+- Rate at which time taken increases wrt the input size
+- Point to remember
+    - TC, Worst Case Scenario
+    - Avoid Constants
+    - Avoid Lower Values
+- Big Oh Notation => Worst Case Complexity, Upper-bound Complexity
+- Theta Notation =. Average Complexity
+- Omega Notation => Lowest-bound Complexity
+
+2. Space Complexity
+- Auxillary space + input space
+- Auxillary Space: Space taken to solve the problem
+- Input Space: Space taken to store the i/p
+
+//Common Complexity
+
+| Complexity   | Name         | Example                |
+| ------------ | ------------ | ---------------------- |
+| `O(1)`       | Constant     | Array access           |
+| `O(log n)`   | Logarithmic  | Binary Search          |
+| `O(n)`       | Linear       | Single loop            |
+| `O(n log n)` | Linearithmic | Merge Sort             |
+| `O(n²)`      | Quadratic    | Nested loops           |
+| `O(n³)`      | Cubic        | 3 nested loops         |
+| `O(2ⁿ)`      | Exponential  | Some recursive subsets |
+| `O(n!)`      | Factorial    | Permutations           |
